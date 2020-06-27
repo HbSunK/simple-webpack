@@ -3,7 +3,7 @@ class Sparrow {
 
     }
 
-    apply (compiler) {
+    applyFn (compiler) {
         compiler.hooks.run.tap('onCompile', name => {
             console.log(name)
         })

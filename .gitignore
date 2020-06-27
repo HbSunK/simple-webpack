@@ -1,8 +1,5 @@
 .DS_Store
 node_modules
-dist
-ssl
-bundle_analyze
 
 # local env files
 .env.local

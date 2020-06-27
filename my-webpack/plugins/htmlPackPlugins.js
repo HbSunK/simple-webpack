@@ -7,7 +7,7 @@ class htmlPackPlugins {
         this.bodyReg = /<\/body>/
     }
 
-    apply (compile) {
+    applyFn (compile) {
         compile.hooks.done.tap('injectHtml', () => {  
             const templatePath = path.join(process.cwd(), this.config.template)
             const entryOutputPath = compile.config.output.path

@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "less": "^3.11.3",
-    "loader-utils": "^2.0.0"
+    "loader-utils": "^2.0.3"
   },
   "scripts": {
     "build": "webpack --config my-webpack/webpack.config.js"
